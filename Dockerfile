@@ -10,4 +10,4 @@ ENV FILE_NAEM main.py
 COPY $FILE_NAEM .
 COPY flag.txt .
 
-CMD ["socat" , "-T60" , "-dd" , "-v" , "-v" , "TCP-LISTEN:"+$PORT+",reuseaddr,fork" , "EXEC:python3 "+$FILE_NAEM+",pty,stderr,setsid,sigint,sane"]
+CMD socat -T20 -dd -v -v TCP-LISTEN:$PORT,reuseaddr,fork EXEC:'python3 '$FILE_NAEM',pty,stderr,setsid,sigint,sane'
