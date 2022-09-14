@@ -1,4 +1,4 @@
-## 교도소 탈출
+# 교도소 탈출
 
 ## 시나리오
 당신은 감옥에 수감되었다.  
@@ -13,6 +13,6 @@ docker run --rm -p 1337:1337 sandbox
 
 ## 플래그
 ```
-hsoc{DumMy_flag}
+HSOC{DumMy_flag}
 ```
 **flag.txt 파일은 더미 플래그입니다!!**

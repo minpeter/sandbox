@@ -1,1 +1,1 @@
-hsoc{DumMy_flag}
+HSOC{DumMy_flag}
