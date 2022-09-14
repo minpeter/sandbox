@@ -13,7 +13,7 @@ docker run --rm -p 1337:1337 sandbox
 
 ## 플래그
 ```
-hsoc{EvEN_If_y0u_breaK_Out,_yOu'rE_S7ill_a_cr1min4l}
+HSOC{EvEN_If_y0u_breaK_Out,_yOu'rE_S7ill_a_cr1min4l}
 ```
 
 ## [문제 풀이](/solution.md)
